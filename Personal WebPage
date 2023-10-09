@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+  <title>Valeriia Horodnycha</title>
+  <link href='https://fonts.google.com/specimen/Manrope' rel='stylesheet'>
+  <link href='https://unpkg.com/purecss@2.0.6/build/pure-min.css' rel='stylesheet'>
+  <style>
+  .custom-width {
+      display: inline-block;
+    }
+  .pure-menu-heading{
+      color: #308d46;
+    }
+    body { 
+      background-image: linear-gradient(to right, white 10%, white 0%, rgba(39, 151, 245, 0.41) 90%, rgba(39, 151, 245, 0.41) 20%),
+      url('https://media.istockphoto.com/id/1171173195/photo/portrait-of-cheerful-female-programmer-enjoying-time-with-laptop-computer-and-distance-job.jpg?s=612x612&w=0&k=20&c=6vDQ8RF2fDHVhm5TT6YpOCn4cSjXzo9Jw22XO5WmWBQ=');
+      
+      background-size: cover;
+      color: rgba(0, 122, 255, 0.8);
+      font-family: "Manrope";
+    }
+    .pure-menu-list {
+      margin: 0 0 0 600;
+      width: 590px;
+      height: 50px;
+    }
+    .pure-menu-item {
+      line-height: 50px;
+      height: 100%;
+      font-size: 20px;
+      display: inline-block;
+      text-transform: uppercase;
+      }
+    h1{
+      margin: 300 0 0 60px;
+      font-size: 50px;
+      color: rgba(0, 122, 255, 0.8);
+    }
+    .icons {
+      width: 50px;
+      height: 50px;
+      border-radius: 90%;
+      display: inline;
+      padding: 0px 30px 0px 50px;
+      margin: 50 0.125em;
+      vertical-align: baseline;
+    }
+    p {
+      font-size: 35px;
+      margin: 0 0 0 60px;
+      font-family: "Manrope";
+    }
+    button{
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Manrope",monospace;
+    height: 48px;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    white-space: nowrap;
+    font-size: 18px;
+    margin: 90 0 0 230;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="pure-menu custom-width">
+    <ul class="pure-menu-list">
+      <li class="pure-menu-item">
+      <a href="#" class="pure-menu-link">About me</a></li>
+      <li class="pure-menu-item">
+      <a href="#" class="pure-menu-link">Portfolio</a></li>
+      <li class="pure-menu-item">
+      <a href="#" class="pure-menu-link">Contacts</a></li>
+    </ul>
+  </div>
+
+  <h1> Valeriia Horodnycha</h1>
+  <img src="https://play-lh.googleusercontent.com/wuIC37v0X3KAbV8F8CKrQCTS3PIoSCDEBVxPm168KCegTI23dXTGyC_pZpezCILl8w" class="icons">
+  <img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png" class="icons"> 
+  <img src="https://www.iconninja.com/files/69/568/894/web-technology-python-web-script-language-long-shadow-icon.svg" class="icons">
+  <img src="https://blog.kakaocdn.net/dn/b7QyIj/btqNMM1S7be/tRXx7QhaRUJ90BzPaZWKv0/img.png" class="icons">
+  
+  <p>Self-taught <b>Software Engineer</b></p>
+  
+  
+  <button>Hire me</button>
+</body>
