@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<head>
+<script src="/assets/jquery.js"></script>
+<link href='https://fonts.google.com/specimen/Playfair+Display' rel='stylesheet' type='text/css'>
+<link href='https://fonts.google.com/specimen/Oxygen' rel='stylesheet' type='text/css'>
+<style>
+body {
+  font-family: Oxygen;
+  margin: 0 auto;
+  max-width: 600px;
+  background: url(https://images.squarespace-cdn.com/content/v1/63f66f23ee94d81d905edb35/42b75074-47fe-43f8-b587-b216976db747/AdobeStock_302503800.jpeg);
+  background-size: cover;
+}
+div {
+  height: 250px;
+  background-size: cover;
+  position: relative;
+  margin: 30px 0 0 0;
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px rgba(244, 249, 252, 0.8);
+}
+h1 {
+  font-family: 'Playfair Display';
+  text-align: center;
+  font-size: 75px;
+  color: #aaaaaa;
+  margin: 60px 0 0 0;
+}
+h2 {
+  text-align: center;
+  color: #bbbbbb;
+  margin: 0px 0 70px 0;
+}
+p {
+  color: rgba(77, 159, 60, 1);
+  background: rgba(244, 249, 252, 1);
+  background: linear-gradient(bottom, rgba(244, 249, 252, 1), rgba(244, 249, 252, 0.6));
+  background: -webkit-linear-gradient(bottom, rgba(244, 249, 252, 1), rgba(244, 249, 252, 0.6));
+  background: -moz-linear-gradient(bottom, rgba(244, 249, 252, 1), rgba(244, 249, 252, 0.6));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 30px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+small {
+  opacity: 0;
+}
+
+.show-description p {
+  height: 150px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+.one{
+  background-image: url("https://img.grouponcdn.com/deal/3cG8dydm2kRBaEfrd9qXPt7VkKnM/3c-2048x1229/v1/t600x362.jpg");
+}
+.two{
+  background-image: url("https://cdn.shopify.com/s/files/1/1357/4643/files/Lavender-Massage-Oils.jpg?v=1680893542");
+}
+.three{
+  background-image: url("https://festival62.ru/public/apanel/wysiwyg/kcfinder/upload/images/spa-slider/i1.jpeg");
+}
+.price {
+  float: right;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  small {
+    font-size: 16px;
+  }
+}
+
+</style>
+
+</head>
+
+<body>
+<h1>Valeriia's Spa</h1>
+<h2>massage for you</h2>
+<div class="one">
+  <p>Cold Stone Massage <span class="price">$30</span><br />
+  <small>The cool stones used during massage can help contract muscles, increase circulation, and alleviate bloating. By cooling down the muscles and skin, cold stone massage therapy feels soothing, calming, refreshing. </small></p>
+</div>
+
+<div class="two">
+  <p>Lavender Massage <span class="price">$32</span><br />
+  <small>In a massage, Lavender Essential Oil effectively soothes many types of pain, both mental and physical. It boosts circulation, lowers blood pressure, and strengthens muscles.</small></p>
+</div>
+  
+<div class="three">
+  <p>Face Care <span class="price">$18</span><br />
+  <small>
+Facials help to renew skin cells by circulating the blood flow under the skin, which then can decrease puffiness and fluid build up that comes from our lymphatic system. Good circulation is important in that it brings oxygen, proteins and nutrition to the skin, while ridding our skin of toxins.</small></p>
+</div>
+
+<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+
+</body>
